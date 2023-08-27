@@ -48,7 +48,7 @@ use App\Propiedad;
                 <p class="alerta exito">Eliminado Correctamente</p>
             
             <?php endif; ?>
-            <a href="../admin/propiedades/crear.php" class="boton boton-verde">Nueva Propiedad </a>
+            <a href="../admin/propiedades/crear.php" class="boton boton-verde">Nueva Propiedad propbado</a>
 
             <table class="propiedades">
                 <thead>
