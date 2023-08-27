@@ -1,0 +1,17 @@
+{
+  "name": "andre/bienesraices",
+  "description": "Creando proyecto con POO",
+  "authors": [
+    {
+      "name": "Andrés David Murillo Ballestero"
+    }
+  ],
+  "require": {
+    "intervention/image": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "./clases"
+    }
+  }
+}
