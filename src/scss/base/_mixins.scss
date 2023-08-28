@@ -20,6 +20,7 @@
     display: grid;
     gap: $espaciado;
     grid-template-columns: repeat($columnas, 1fr);
+    width: 50%;
 }
 
 @mixin boton($bgColor, $display ) {
