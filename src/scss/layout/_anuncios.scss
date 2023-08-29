@@ -1,5 +1,4 @@
 @include tablet {
-    
     .contenedor-anuncios {
         @include grid(3, 2rem);
     }
@@ -34,15 +33,11 @@
 
 .iconos-caracteristicas {
     display: flex;
-    justify-content: center;
     list-style: none;
     padding: 0;
     max-width: 40rem;
+   
 
-    ul{
-        display: flex;
-        justify-content: center;
-    }
 
     li {
         flex: 1;
@@ -52,6 +47,8 @@
         img {
             flex:  0 0 3rem;
             margin-right: 1rem;
+         
+
         }
         p {
             font-weight: $black;
@@ -59,4 +56,6 @@
             justify-content: center;
         }
     }
+
+   
 }

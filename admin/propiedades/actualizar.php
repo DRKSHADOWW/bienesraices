@@ -46,15 +46,12 @@ estaAutenticado();
 
     if(empty($errores)){
         // Almacenar la imagen
-
+        
         $image->save(CARPETA_IMAGENES . $nombreImagen);
         $resultado = $propiedad->guardar();
-        //Insertar en la base de datos
         
-           
-            }
-            
-           
+        //Insertar en la base de datos
+            }  
          }
 
       incluirTemplates('header');

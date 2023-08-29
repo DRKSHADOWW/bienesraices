@@ -50,6 +50,7 @@ class Propiedad{
 public function guardar(){
         if(isset($this->id)){
             $this->actualizar();
+            
         } else {
             $this->crear();
         }
