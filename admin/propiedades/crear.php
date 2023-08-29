@@ -57,13 +57,10 @@ use Intervention\Image\ImageManagerStatic as Image;
         // Guarda la imagen en el servidor
         $image->save(CARPETA_IMAGENES.$nombreImagen);
        // Guarada en la base de datos
-           $resultado = $propiedad->guardar();
+            $propiedad->guardar();
 
             //Mensaje de exito o de error
-            if($resultado){
-               // Redirecciona al usuario.
-               header("Location: ../index.php?resultado=1");
-                }
+           
 
                 
             }
