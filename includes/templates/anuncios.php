@@ -41,7 +41,7 @@
                     <a href="anuncio.php?id=<?php echo $propiedad['id']; ?>" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
-                    </div>
+                    
                 </div><!--.contenido-anuncio-->
                 
             </div><!--anuncio-->
