@@ -15,9 +15,9 @@
 <?php while($propiedad = mysqli_fetch_assoc($resultado)):?>
             <div class="anuncio">
 
-            <img loading="lazy" src="imagenes/<?php echo $propiedad['imagen']; ?>" alt="anuncio">
+            <img loading="lazy" src="imagenes/<?php echo $propiedad['imagen'];?>" alt="anuncio">
               
-                <div class="ubicador">
+               
                 <div class="contenido-anuncio">
                     <h3><?php echo $propiedad['titulo'];?></h3>
                     <p><?php echo $propiedad['descripcion'];?></p>
@@ -41,7 +41,7 @@
                     <a href="anuncio.php?id=<?php echo $propiedad['id']; ?>" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
-                    </div>
+                    
                 </div><!--.contenido-anuncio-->
                 
             </div><!--anuncio-->

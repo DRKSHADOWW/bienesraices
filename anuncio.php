@@ -34,7 +34,8 @@ require 'includes/app.php';
         
         <div class="resumen-propiedad">
             <p class="precio">$<?php echo number_format($propiedad['precio']);?></p>
-            <ul class="iconos-caracteristicas">
+           
+            <ul class="iconos-caracteristicas-p">
                 <li>
                     <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
                     <p><?php echo $propiedad['wc']; ?></p>
@@ -48,6 +49,7 @@ require 'includes/app.php';
                     <p><?php echo $propiedad['habitaciones']; ?></p>
                 </li>
             </ul>
+            
 
             <p><?php echo $propiedad['descripcion']; ?></p>
 

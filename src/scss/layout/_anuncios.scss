@@ -2,6 +2,7 @@
     .contenedor-anuncios {
         @include grid(3, 2rem);
     }
+
 }
 
 
@@ -10,11 +11,12 @@
     border: 1px solid darken($gris, 10);
     margin-bottom: 2rem;
     border-radius: 20px;
+   
     
 
     .contenido-anuncio {
         padding: 2rem;
-        
+   
     }
 
     h3, p {
@@ -42,6 +44,7 @@
     li {
         flex: 1;
         display: flex;
+        
        
         
         img {
@@ -56,6 +59,40 @@
             justify-content: center;
         }
     }
+
+    
+
+   
+}
+
+.iconos-caracteristicas-p {
+    display: flex;
+    list-style: none;
+    padding: 0 0 0 150px;
+    max-width: 70rem;
+   
+
+
+    li {
+        flex: 1;
+        display: flex;
+        
+       
+        
+        img {
+            flex:  0 0 3rem;
+            margin-right: 1rem;
+         
+
+        }
+        p {
+            font-weight: $black;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    
 
    
 }

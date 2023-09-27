@@ -3,11 +3,13 @@
 require '../includes/app.php';
  estaAutenticado();
 use App\Propiedad;
+use App\Vendedor;
+
     // Llamar a la base de datos  
     // Implementar u método para obtner todas las propiedades
     $propiedades = Propiedad::all();
-    
-    
+    $vendedores = Vendedor::all();
+    debuguear($propiedades);
     $resultado = $_GET['resultado'] ?? null; // ?? placeholder = buscar este valor y si no existe le agrega null
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
